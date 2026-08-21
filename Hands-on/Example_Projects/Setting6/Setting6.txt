@@ -1,0 +1,47 @@
+Configuration	Setting6
+STM32CubeMX 	4.13.0
+Date	03/16/2016
+MCU	STM32F401RETx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PB5
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+21	PA5	SPI1_SCK	
+22	PA6	SPI1_MISO	
+57	PB5	SPI1_MOSI	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : Setting6
+Project Folder : D:\7_Trainings\Cube\Example_Projects\Setting6
+Toolchain / IDE : EWARM
+Firmware Package Name and Version : STM32Cube FW_F4 V1.11.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per IP : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+

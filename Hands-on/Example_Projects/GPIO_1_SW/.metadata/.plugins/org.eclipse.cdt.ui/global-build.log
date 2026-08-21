@@ -1,0 +1,23 @@
+15:46:14 **** Incremental Build of configuration Debug for project GPIO_1_SW ****
+make all 
+'Building file: D:/7_Trainings/Cube/Example_Projects/GPIO_1_SW/Src/main.c'
+'Invoking: MCU GCC Compiler'
+D:\7_Trainings\Cube\Example_Projects\GPIO_1_SW\SW4STM32\GPIO_1_SW\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -D__weak="__attribute__((weak))" -D__packed="__attribute__((__packed__))" -DUSE_HAL_DRIVER -DSTM32F401xE -I"D:/7_Trainings/Cube/Example_Projects/GPIO_1_SW/Inc" -I"D:/7_Trainings/Cube/Example_Projects/GPIO_1_SW/Drivers/STM32F4xx_HAL_Driver/Inc" -I"D:/7_Trainings/Cube/Example_Projects/GPIO_1_SW/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"D:/7_Trainings/Cube/Example_Projects/GPIO_1_SW/Drivers/CMSIS/Include" -I"D:/7_Trainings/Cube/Example_Projects/GPIO_1_SW/Drivers/CMSIS/Device/ST/STM32F4xx/Include"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Application/User/main.d" -MT"Application/User/main.o" -o "Application/User/main.o" "D:/7_Trainings/Cube/Example_Projects/GPIO_1_SW/Src/main.c"
+'Finished building: D:/7_Trainings/Cube/Example_Projects/GPIO_1_SW/Src/main.c'
+' '
+'Building target: GPIO_1_SW.elf'
+'Invoking: MCU GCC Linker'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32F401RETx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "GPIO_1_SW.elf" @"objects.list"  
+'Finished building target: GPIO_1_SW.elf'
+' '
+make --no-print-directory post-build
+'Generating binary and Printing size information:'
+arm-none-eabi-objcopy -O binary "GPIO_1_SW.elf" "GPIO_1_SW.bin"
+arm-none-eabi-size "GPIO_1_SW.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3096	     12	   1572	   4680	   1248	GPIO_1_SW.elf
+' '
+15:46:19 **** Incremental Build of configuration Debug for project GPIO_1_SW ****
+make all 
+make: Nothing to be done for `all'.

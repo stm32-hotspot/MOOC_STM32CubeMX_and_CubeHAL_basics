@@ -1,0 +1,10 @@
+
+------------------------------------
+  Logging start.  ## CURRENT TIME  : [3/25, 2016   19:16  43.965]  ## COMMAND LINE  : 
+cmd /C "gen_csini.exe"
+------------------------------------
+[STD-IN] : D:\7_Trainings\Cube\Example_Projects\UART1_Atollic\.metadata\.plugins\sst.csgp\bin\env_vars.txt
+GUI is waiting for subprocess to be done...
+Execution done. EXIT CODE = 0
+  Logging finished.  ## CURRENT TIME  : [3/25, 2016   19:16  47.426]
+------------------------------------
